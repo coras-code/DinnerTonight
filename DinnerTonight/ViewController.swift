@@ -60,13 +60,13 @@ class ViewController: UIViewController {
         tapButton.isHidden = false
     }
     
-    // MARK:- Navigation
+     //MARK:- Navigation
     override func prepare(for segue: UIStoryboardSegue,
                              sender: Any?) {
         if segue.identifier == "ShowDetail" {
         let detailViewController = segue.destination
                                       as! DetailViewController
-        
+        //here will be the passing of the dinner object
         let dinnerResult = dinner
         detailViewController.dinnerResult = dinnerResult
         }

@@ -14,6 +14,8 @@
 		3689DB2C256403CC00D5A042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3689DB2A256403CC00D5A042 /* LaunchScreen.storyboard */; };
 		3689DB342564044800D5A042 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3689DB332564044800D5A042 /* DetailViewController.swift */; };
 		3689DB362564122700D5A042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3689DB352564122700D5A042 /* Main.storyboard */; };
+		3689DB382564131F00D5A042 /* Dinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3689DB372564131F00D5A042 /* Dinner.swift */; };
+		3689DB3A2564180B00D5A042 /* DimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3689DB392564180B00D5A042 /* DimmingPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		3689DB2D256403CC00D5A042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3689DB332564044800D5A042 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3689DB352564122700D5A042 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3689DB372564131F00D5A042 /* Dinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinner.swift; sourceTree = "<group>"; };
+		3689DB392564180B00D5A042 /* DimmingPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,9 @@
 				3689DB23256403C700D5A042 /* ViewController.swift */,
 				3689DB332564044800D5A042 /* DetailViewController.swift */,
 				3689DB352564122700D5A042 /* Main.storyboard */,
+				3689DB392564180B00D5A042 /* DimmingPresentationController.swift */,
 				3689DB28256403CC00D5A042 /* Assets.xcassets */,
+				3689DB372564131F00D5A042 /* Dinner.swift */,
 				3689DB2A256403CC00D5A042 /* LaunchScreen.storyboard */,
 				3689DB2D256403CC00D5A042 /* Info.plist */,
 			);
@@ -140,10 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3689DB382564131F00D5A042 /* Dinner.swift in Sources */,
 				3689DB24256403C700D5A042 /* ViewController.swift in Sources */,
 				3689DB20256403C700D5A042 /* AppDelegate.swift in Sources */,
 				3689DB22256403C700D5A042 /* SceneDelegate.swift in Sources */,
 				3689DB342564044800D5A042 /* DetailViewController.swift in Sources */,
+				3689DB3A2564180B00D5A042 /* DimmingPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

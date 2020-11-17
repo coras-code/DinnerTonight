@@ -10,7 +10,7 @@
         <!--Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Main" customClass="ViewController" customModule="What_sForDinner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Main" customClass="ViewController" customModule="DinnerTonight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +50,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="lightTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="dinnerDetailsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Sj-MB-4uR"/>
+                                    <action selector="dinnerDetailsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lLO-HW-C4R"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -80,7 +80,7 @@
                         <outlet property="imageView" destination="h9T-7H-6HA" id="2UE-3T-KLa"/>
                         <outlet property="tapButton" destination="Drr-wi-05v" id="EYM-3M-PKE"/>
                         <outlet property="titleLabel" destination="2h2-2l-047" id="IVR-g3-r03"/>
-                        <segue destination="p6N-eF-83W" kind="presentation" identifier="ShowDetail" id="qX7-Ed-tTl"/>
+                        <segue destination="p6N-eF-83W" kind="presentation" identifier="ShowDetail" id="hFw-qd-e76"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -90,7 +90,7 @@
         <!--Detail-->
         <scene sceneID="1on-v6-xBl">
             <objects>
-                <viewController id="p6N-eF-83W" userLabel="Detail" customClass="DetailViewController" customModule="What_sForDinner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="p6N-eF-83W" userLabel="Detail" customClass="DetailViewController" customModule="DinnerTonight" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" alpha="0.5" contentMode="scaleToFill" id="1c8-H3-jMX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -103,7 +103,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="clear" catalog="system"/>
                                         <connections>
-                                            <action selector="close" destination="p6N-eF-83W" eventType="touchUpInside" id="Lin-xQ-Vd9"/>
+                                            <action selector="close" destination="p6N-eF-83W" eventType="touchUpInside" id="2pc-J3-vHr"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -130,8 +130,8 @@
                         <viewLayoutGuide key="safeArea" id="TGl-ym-j9y"/>
                     </view>
                     <connections>
-                        <outlet property="dinnerLabel" destination="NOt-Gz-IvW" id="FdM-FP-0RV"/>
-                        <outlet property="popupView" destination="0CK-HI-2eU" id="3AU-Eb-TIz"/>
+                        <outlet property="popupView" destination="0CK-HI-2eU" id="IZL-Ff-c9n"/>
+                        <outlet property="recipeInfoLabel" destination="NOt-Gz-IvW" id="br7-t4-ypS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wTb-l0-nRO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
